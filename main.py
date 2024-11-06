@@ -2,7 +2,7 @@
 import PrimeSieve as ps
 
 # To calculate all the prime numbers upto a number largeNum:
-largeNum = 2000000
+largeNum = 2500000
 primelist = ps.primesUptoN(largeNum)
 print("There are ", len(primelist), "prime numbers upto ", largeNum)
 print("The largest prime number less than ", largeNum, "is ", primelist[-1])
@@ -25,7 +25,7 @@ else:
 
 
 # To calculate the Nth prime number, there are two functions:
-N = 10001
+N = 12001
 prime = ps.nthPrime(N)
 print("The ", N, "th prime number is ", prime)
 
